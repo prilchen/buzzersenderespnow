@@ -2,7 +2,9 @@
 
 Dies ist die Software für die **Buzzer-Einheiten** (Sender). Die Buzzer sind darauf optimiert, monatelang mit einer einzigen Akkuladung auszukommen. Sie erwachen nur beim Drücken aus dem Tiefschlaf, senden ein Signal und schlafen sofort wieder ein.
 
-Passende Anleitungen und das Projekt-Video findest du auf [prilchen.de](https://prilchen.de).
+Das vollständige Tutorial mit Gehäusedaten und Bauanleitung findest du auf [prilchen.de](https://prilchen.de/esp32-projekt-quiz-buzzer-wer-drueckt-als-erster)
+
+![Projektbild](https://prilchen.de/wp-content/uploads/2026/01/image-6.png)
 
 ## 🚀 Highlights
 - **EXT0-Wakeup:** Der ESP32 verbraucht im Tiefschlaf fast keine Energie und wacht blitzschnell per Tastendruck auf.
