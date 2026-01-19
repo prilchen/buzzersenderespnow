@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 Lolin Buzzer – Backup Installer</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+      text-align: center;
+      line-height: 1.6;
+    }
+    h1 { margin-bottom: 0.2em; }
+  </style>
+</head>
+<body>
+
+  <h1>ESP32 Lolin Buzzer – Backup Installer</h1>
+  <p>Mit diesem Tool kannst du das vollständige Backup auf deinen ESP32 zurückspielen.</p>
+
+  <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+
+  <p style="margin-top: 40px; font-size: 0.9em; color: #666;">
+    Hinweis: Dieses Backup enthält den kompletten Flash-Inhalt (Offset 0x00000).
+  </p>
+
+</body>
+</html>
