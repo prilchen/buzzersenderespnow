@@ -1,0 +1,15 @@
+{
+  "name": "ESP32 Lolin Buzzer Backup",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "esp32lolin_buzzer_backup.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
